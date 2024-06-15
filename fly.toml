@@ -74,8 +74,12 @@ swap_size_mb = 152
     grace_period = "15s"
     # restart_limit is unused in appsv2
     restart_limit = 0
-
+    
+[[vm]]
+  size = 'shared-cpu-1x'
+  memory = "256mb"
 # community.fly.io/t/5490/3
+
 [checks]
   [checks.up]
     # grace_period affects time taken for rolling deploys
