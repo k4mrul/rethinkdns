@@ -160,6 +160,7 @@ jobs:
             --auto-confirm
             --no-cache
             --verbose
+            --ha=false
             "
 
       - name: 📕 Registry
