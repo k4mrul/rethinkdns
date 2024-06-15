@@ -98,3 +98,6 @@ auto_rollback = true
     timeout = "2s"
     type = "http"
 
+[[vm]]
+  size = 'shared-cpu-1x'
+  memory = "256mb"
