@@ -21,7 +21,7 @@ swap_size_mb = 152
 [[services]]
   protocol = "tcp"
   internal_port = 8080
-  auto_stop_machines = true
+  auto_stop_machines = false
   auto_start_machines = true
 
   [[services.ports]]
