@@ -24,7 +24,7 @@ auto_rollback = true
 [[services]]
   internal_port = 8055
   protocol = "tcp"
-  auto_stop_machines = true
+  auto_stop_machines = false
   auto_start_machines = true
 
   [services.concurrency]
