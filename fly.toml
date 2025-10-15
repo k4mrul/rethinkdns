@@ -1,4 +1,4 @@
-app = "rethink-06"
+app = ""
 
 kill_signal = "SIGINT"
 kill_timeout = "15s"
