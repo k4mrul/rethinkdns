@@ -75,16 +75,13 @@ auto_rollback = true
   type = "connections"
 
   [[services.ports]]
-  # handlers = ["tls"]
-  handlers = ["proxy_proto"]
-  proxy_proto_options = { version = "v2" }
+  # TODO: ProxyProto v2
+  handlers = ["tls"]
   port = 853
 
   [[services.ports]]
   # TODO: ProxyProto v2
-  # handlers = ["tls"]
-  handlers = ["proxy_proto"]
-  proxy_proto_options = { version = "v2" }
+  handlers = ["tls"]
   port = 10555
 
   [[services.tcp_checks]]
