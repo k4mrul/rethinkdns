@@ -66,9 +66,13 @@ kill_timeout = "15s"
 
   [[services.ports]]
     # TODO: ProxyProto v2
+    handlers = ["proxy_proto"]
+    proxy_proto_options = { version = "v2" }
     port = 853
   [[services.ports]]
     port = 10000
+    handlers = ["proxy_proto"]
+    proxy_proto_options = { version = "v2" }
 
   [services.concurrency]
     type = "connections"
